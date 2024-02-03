@@ -26,6 +26,13 @@
       <p class="text-start">
         The strategy here is to iterate through the matrix twice, marking the rows and columns that need to be set to zero, and then applying those changes in a second pass through the matrix. The use of flags (firstRowZero and firstColZero) helps in determining whether the first row or column needs to be set to zero at the end
       </p>
+      <div class="dynamic-container">
+        <table id="matrix">
+          <!-- Matrix content will be generated dynamically -->
+        </table>
+      
+        <button onclick="zeroMatrix()">Zero Matrix</button>
+      </div>
     </main>
 
     <footer class="footer footer-dark">
